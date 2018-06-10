@@ -15,8 +15,8 @@
 -->
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds.  Do not translate. -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
     <bool name="config_useRoundIcon">true</bool>
 </resources>

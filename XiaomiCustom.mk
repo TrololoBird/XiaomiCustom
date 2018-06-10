@@ -98,16 +98,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MiuiCamera \
     XiaomiParts \
-    WeatherProvider \
+    YahooWeatherProvider \
     WundergroundWeatherProvider
-
-# Camera permissions
-PRODUCT_COPY_FILES += \
-    $(VENDOR_PATH)/MiuiCamera/miui.camera.permissions.xml:system/etc/permissions/miui.camera.permissions.xml
-
-# Remove packages
-PRODUCT_PACKAGES += \
-    Remove
 
 # Init
 PRODUCT_PACKAGES += \
